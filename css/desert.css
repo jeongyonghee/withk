@@ -1,0 +1,109 @@
+@charset "utf-8";
+body{
+    background-image: url(../img/back.jpg);
+    /* background-repeat: no-repeat; */
+    background-position:center;
+}
+
+#header ul{
+    margin-top:20px;
+    border-bottom:5px solid #464646	;
+    margin-bottom:15px;
+}
+#header ul > li{
+    display:inline-block;
+    font-size:25px;
+    border:2px solid #c8c8c8	;
+    border-radius:10px;
+    padding: 5px;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+#header ul .back{
+    border:none;
+    font-size:40px;
+    margin-left:20px;
+    
+}
+
+#header ul > li:nth-child(2){
+    color:brown;
+    background-color:yellow;
+    margin-left:70px;
+}
+
+#header ul > li:nth-child(3){
+    color:brown;
+    background-color: yellow;
+}
+
+#header ul > li:nth-child(4){
+    color:brown;
+    background-color: yellow;
+}
+#header ul > li:nth-child(5){
+    color:brown;
+    background-color:yellow;
+}
+#header ul > li:nth-child(6){
+    color:blue;
+    background-color:#fff;
+    margin-right:70px;
+}
+#header ul .foward{
+    border:none;
+    font-size:40px;
+    margin-right:20px;
+}
+
+#section .coffeemenu .menu > li{
+    width:250px;
+    height:250px;
+    display:inline-block;
+    border:5px solid #EBF5FF;
+    background-color:#FFF;
+    box-shadow: 0px 0px 20px #505050;
+    border-radius:25px;
+    text-align:center;
+    line-height:80px;
+    margin-bottom:50px;
+    /* margin-right:70px; */
+    margin-left:60px;
+    font-size:30px;
+    cursor: pointer;
+}
+
+#section .coffeemenu .menu > li > i {
+    margin-top:20px;
+    font-size:100px;
+    color:gray;
+}
+
+#section .coffeemenu .menu > li >span{
+    display:block;
+    line-height: 0px;
+    font-size:20px;
+}
+
+
+.pay a{
+    width:300px; 
+    height:100px;
+    position:absolute;
+    left:44%;
+    color:#fff;
+    font-weight:bold;
+    font-size:40px;
+    border:1px solid #fff;
+    background-color:rgba(0, 0, 0, 0.8);
+    box-shadow: 10px 10px 10px black;
+    text-align:center;
+    line-height: 100px;
+    border-radius:75px;
+    margin-top:50px;
+}
+
+
+
+.abc{background-color: 	#ffcd28 !important;}
